@@ -15,7 +15,7 @@ This small application demonstrates authentication and RBAC for an SPA, using Au
 
 ### Watch the demo video
 
-![home page](https://youtu.be/0o0v8oyaB50)
+https://youtu.be/0o0v8oyaB50
 
 ### Home Page
 

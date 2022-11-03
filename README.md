@@ -15,11 +15,11 @@ This small application demonstrates authentication and RBAC for an SPA, using Au
 
 ### Home Page
 
-![home page].(src/assets/home.jpg)
+![home page](src/assets/home.jpg)
 
 ### After logged in
 
-![after logged in].(src/assets/login.jpg)
+![after logged in](src/assets/login.jpg)
 
 ## Software
 

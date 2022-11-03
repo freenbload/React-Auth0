@@ -21,19 +21,45 @@ This small application demonstrates authentication and RBAC for an SPA, using Au
 
 ![after logged in](src/assets/login.jpg)
 
+### Profile of a logged in user
+
+![profile logged in](src/assets/profile.jpg)
+
+### Public API for logged in user
+
+![Public API](src/assets/external_api01.png)
+
+### User role API for logged in user
+
+![User role API](src/assets/external_api02.png)
+
+### Admin role API for logged in user - rejected
+
+![Admin role API rejected](src/assets/external_api03.png)
+
+### Admin role API for logged in user - accepted
+
+![Admin role API accepted](src/assets/external_api04.png)
+
+### React .env configuration
+
+![React .env configuration](src/assets/env_react_app.png)
+
+### Server .env configuration
+
+![Server .env configuration](src/assets/env_server.png)
+
 ## Software
 
 Before proceeding, please ensure you have the following software installed on your computer.
 
 - Node
-- Yarn (optional but recommended)
 - Git command line tools
 
 ### Useful links
 
 - Download Git CLT - Windows: https://git-scm.com/download/windows Mac: https://git-scm.com/download/mac
 - Download Node - https://nodejs.org/en/
-- Download Yarn CLT - https://yarnpkg.com/lang/en/docs/install/
 - Download VSCode - https://code.visualstudio.com/
 
 ## Getting started
@@ -45,37 +71,37 @@ Please fork a copy of this repository. Forking a repository allows you to freely
 Clone the repo to your machine
 
 ```
-git clone <CloneURL>
-```
-
-### Lunch the backend
-
-1. Within terminal or cmd ensure you have navigated inside the 'Backend' directory and installed the dependencies
-
-```
-cd <../path/to/Backend>
-yarn install OR npm install
-```
-
-2. Run the start script
-
-```
-yarn run start OR npm run start
+git clone https://github.com/freenbload/React-Auth0.git
 ```
 
 ### Lunch the frontend
 
-1. Open a new terminal window and navigate inside the 'Frontend' folder as you will need to keep the backend running in the background
+1. Within terminal or cmd ensure you have navigated root directory of the source code you extracted and installed the dependencies
 
 ```
-cd <../path/to/Frontend>
-yarn install OR npm install
+npm install
 ```
 
 2. Run the start script
 
 ```
-yarn run start OR npm run start
+npm run start
 ```
 
-Your app should be running on: http://localhost:3000
+Your app should be running at: http://localhost:3456
+
+### Lunch the backend
+
+1. Open a new terminal window and navigate inside the 'src\server' folder as you will need to keep the backend running in the background
+
+```
+cd ./src/server
+```
+
+2. Run the server script
+
+```
+node server.js
+```
+
+Your server should be running at: http://localhost:5000
